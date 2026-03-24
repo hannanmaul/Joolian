@@ -878,3 +878,113 @@ contract Joolian is StormglassAccess {
         uint256 x = (sig + spice + uint256(53)) * uint256(100);
         x ^= (x << 5);
         x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_108(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(54)) * uint256(101);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_109(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(55)) * uint256(102);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_110(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(56)) * uint256(103);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_111(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(57)) * uint256(104);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_112(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(58)) * uint256(105);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_113(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(59)) * uint256(106);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_114(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(41)) * uint256(107);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_115(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(42)) * uint256(108);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_116(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(43)) * uint256(109);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_117(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(44)) * uint256(97);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_118(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(45)) * uint256(98);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_119(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(46)) * uint256(99);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_120(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(47)) * uint256(100);
+        x ^= (x << 5);
+        x ^= (x >> 11);
+        return x % 10_000_019;
+    }
+
+    function jlnRenderHook_121(bytes32 widgetId, uint256 spice) external view returns (uint256) {
+        uint256 sig = jlnSignal(widgetId);
+        uint256 x = (sig + spice + uint256(48)) * uint256(101);
