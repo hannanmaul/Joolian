@@ -2088,3 +2088,95 @@ contract Joolian is StormglassAccess {
     function jlnMacroCard_97(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
         return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(97), mood, jlnSignal(widgetId), block.chainid));
     }
+
+    function jlnMacroCard_98(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(98), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_99(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(99), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_100(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(100), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_101(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(101), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_102(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(102), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_103(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(103), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_104(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(104), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_105(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(105), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_106(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(106), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_107(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(107), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_108(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(108), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_109(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(109), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_110(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(110), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_111(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(111), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_112(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(112), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_113(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(113), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_114(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(114), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_115(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(115), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_116(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(116), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_117(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(117), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_118(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(118), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnMacroCard_119(bytes32 widgetId, uint256 mood) external view returns (bytes32) {
+        return keccak256(abi.encode(JLN_DOMAIN, widgetId, uint256(119), mood, jlnSignal(widgetId), block.chainid));
+    }
+
+    function jlnWidgetCount() external view returns (uint256) { return widgetIndex.length; }
+    function jlnWidgetAt(uint256 i) external view returns (bytes32) { return widgetIndex[i]; }
+}
